@@ -7,4 +7,5 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 
 Click any of the images below to view the readme and live demo of the project.
-[![](images/single-page-cv.png)](01-single-page-cv)
+[![](images/single-page-cv.png)](01-single-page-cv) [![](images/single-page-cv.png)](01-single-page-cv)
+
