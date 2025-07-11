@@ -1,0 +1,119 @@
+:root{
+    --background-color:#092a48;
+    --text-color:#f5f9f8;
+    --header-color:#ef2d7a;
+    --border-color:#9bbbcb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+/*header başladı*/
+header{
+    height: 40dvh;
+    margin: 1rem 4rem;
+    padding:  0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+h3{
+    font-weight: bold;
+    color: var(--header-color);
+}
+/*navbar başladı*/
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 2rem;
+}
+nav ul li{
+    margin: 0.5rem 1rem;
+}
+nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-color);
+    border-bottom: 1px solid transparent ;
+    transition: border-bottom 0.3s ease-out;
+}
+nav ul li a:hover{
+    color: #ef2d7a;
+    border-bottom:2px solid #ef2d7a;
+}
+/*navbar bitti*/
+header nav .logo img {
+    max-width:120px;
+    cursor: pointer;
+}
+header h1,
+header  p{
+    text-align: center;
+}
+header nav h3{
+    color: var(--border-color);
+}
+header p{
+    color: #ef2d7a;
+}
+header h1{
+    font-family: "Limelight", sans-serif;
+    font-size: 3rem;
+}
+/*header bitti*/
+main{
+    margin:4rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+     grid-template-areas: "projects experience education"
+                         "projects experience education"
+                          "rewiews rewiews rewiews" ;
+    gap:2rem;
+    padding: 4rem;
+    margin: 4rem auto;
+    max-width: 1700px;
+    text-align: left;
+}
+
+#projects{
+    grid-area: projects;
+}
+#experience{
+    grid-area: experience;
+}
+#education{
+    grid-area: education;
+}
+main ul{
+    list-style-type: none;
+}
+main section{
+    padding: 2rem;
+}
+
+/*main bitti*/
+
+/*footer başladı*/
+footer{
+    border-top: 2px solid var(--border-color);
+}
+footer p{
+    text-align: center;
+    margin-top: 3rem ;
+}
+/*footer bitti*/
