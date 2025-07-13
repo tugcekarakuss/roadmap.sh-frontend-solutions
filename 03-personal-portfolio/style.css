@@ -141,7 +141,6 @@ main section {
     grid-column: 1 / -1;
     padding: 2rem;
 }
-
 .teacher-comment{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -163,7 +162,7 @@ main section {
     }
 }
 /*main end*/
-
+/*footer started*/
 footer{
     border-top: 2px solid var(--box-bg-color);
     height: 10dvh;
