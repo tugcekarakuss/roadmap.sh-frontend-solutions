@@ -3,6 +3,9 @@
     --text-color:#f5f9f8;
     --header-color:#ef2d7a;
     --border-color:#9bbbcb;
+    --box-bg-color:#0c3a5f;
+    --header-font:"Limelight", sans-serif;
+    --nav-name-font:"Oregano", cursive;
 }
 *{
     margin: 0;
@@ -15,105 +18,155 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
-/*header başladı*/
+/*header started*/
 header{
-    height: 40dvh;
-    margin: 1rem 4rem;
-    padding:  0.5rem;
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--box-bg-color);
+    padding: 2rem;
 }
-h3{
-    font-weight: bold;
-    color: var(--header-color);
+header .header h1,
+header .header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*navbar başladı*/
+.header h1{
+    font-family:var(--header-font);
+    color: var(--border-color);
+    font-size: 2.5rem;
+    text-align: center;
+}
+.header p{
+    color: var(--border-color);
+    font-size: 1rem;
+    text-align: center;
+}
+/*nav started*/
 nav{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+    margin: 1rem 2rem;
+}
+nav h3{
+    font-family: var(--nav-name-font);
+    font-size: 1.3rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.3rem;
+    list-style-type: none;
+    margin-right: 1rem;
+}
+nav ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s ease-out;
+}
+nav ul li a:hover{
+    color: var(--header-color);
+    text-decoration: none;
+    border-bottom:2px solid var(--header-color) ;
 }
 nav .logo{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
 }
-nav ul {
+nav img{
+    max-width: 100px;
+}
+@media(max-width:768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/*nav end*/
+/*header end*/
+
+/*main started*/
+main {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+main section {
+  background-color:var(--box-bg-color);
+  border-radius: 10px;
+  padding: 2rem;
+}
+@media (max-width:768px){
+    main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.projects-link ul li,
+.projects-link ul li a{
     list-style-type: none;
-    display: flex;
-    margin: 2rem;
-}
-nav ul li{
-    margin: 0.5rem 1rem;
-}
-nav ul li a{
-    cursor: pointer;
-    text-decoration: none;
     color: var(--text-color);
-    border-bottom: 1px solid transparent ;
-    transition: border-bottom 0.3s ease-out;
-}
-nav ul li a:hover{
-    color: #ef2d7a;
-    border-bottom:2px solid #ef2d7a;
-}
-/*navbar bitti*/
-header nav .logo img {
-    max-width:120px;
+    text-decoration: none;
     cursor: pointer;
+} 
+.subheading{
+    color: var(--header-color);
+    font-size: 1.2rem;
+    line-height: 2;
 }
-header h1,
-header  p{
-    text-align: center;
-}
-header nav h3{
+.projects-link ul li a:hover{
     color: var(--border-color);
 }
-header p{
-    color: #ef2d7a;
+#experience .work-2{
+    padding:2rem 0;
 }
-header h1{
-    font-family: "Limelight", sans-serif;
-    font-size: 3rem;
+#experience a{
+    text-decoration: none;
+    color: var(--background-color);
 }
-/*header bitti*/
-main{
-    margin:4rem;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-     grid-template-areas: "projects experience education"
-                         "projects experience education"
-                          "rewiews rewiews rewiews" ;
-    gap:2rem;
-    padding: 4rem;
-    margin: 4rem auto;
-    max-width: 1700px;
-    text-align: left;
+#experience a:hover{
+    color: var(--header-color);
 }
-
-#projects{
-    grid-area: projects;
+#education ul{
+ list-style: inside;
 }
-#experience{
-    grid-area: experience;
-}
-#education{
-    grid-area: education;
-}
-main ul{
-    list-style-type: none;
-}
-main section{
+#rewiews{
+    grid-column: 1 / -1;
     padding: 2rem;
 }
 
-/*main bitti*/
+.teacher-comment{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.teacher {
+  background-color: #0e3a5f;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+@media (max-width:768px)
+{
+.teacher-comment{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+/*main end*/
 
-/*footer başladı*/
 footer{
-    border-top: 2px solid var(--border-color);
-}
-footer p{
+    border-top: 2px solid var(--box-bg-color);
+    height: 10dvh;
     text-align: center;
-    margin-top: 3rem ;
+    padding: 2rem;
 }
-/*footer bitti*/

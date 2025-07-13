@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!--meta tag-->
     <meta name="author" content="Tuğçe Karakuş">
     <meta name="description" content="the portfolio site of best frontend developer Tuğçe Karakuş" >
     <meta name="keywors" content="best developer,frontend developer portfolio,Tuğçe Karakuş,">
-    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
     <!-- og tags-->
      <meta 
      property="og:title" 
@@ -27,27 +28,26 @@
      property="og:type" 
      content="portfolio">
 
-     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--navigation-->
     <header>
     <nav>
         <div class="logo">
-        <img src="img/logo.png" alt="Tuğçe Karakuş">
-        <h3>Tuğçe Karakuş</h3>
+            <img src="img/logo.png" alt="Tuğçe Karakuş">
+            <h3>Tuğçe Karakuş</h3>
         </div>
-        <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pages/projects.html">Projects</a></li>
-        <li><a href="pages/articles.html">Articles</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/projecst.html">Projects</a></li>
+            <li><a href="pages/artickles.html">Articles</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </nav>   
+
     <div class="header">
         <h1>Frontend Developer</h1>
-        <p>Welcome this is my portfolo
-        </p>
+        <p>Welcome this is my portfolo</p>
     </div>
 </header>
     <!--Main-->
@@ -73,12 +73,12 @@
             <div class="subheading">
                 <h3>Work Experience</h3>
             </div>
-            <div>
+            <div class="work-1">
                 <h5>road.sh</h5>
                 <p>solved all the projects</p>
                 <a href="https://roadmap.sh/u/tugcekarakus">Visit My Profile</a>
             </div>
-            <div>
+            <div class="work-2">
                 <h5>OpenSource Work</h5>
                 <p>Contributed to 50 opensource projects. Made my own projects with 200 github stars.</p>
                 <a href="https://github.com/tugcekarakuss">Visit My GitHub Profile</a>
@@ -90,6 +90,7 @@
                 <h3>Education</h3>
             </div>
             <p>Graduated computer programming </p>
+            <br>
             <ul>
                 <p>Courses I took</p>
                 <li>HTML</li>
@@ -106,31 +107,34 @@
             <div class="subheading">
                 <h3>Rewiews from my Teachers</h3>
             </div>
-            <!--teacher 1-->
-            <div class="teacher-1">
-                <p>
-                    Tuğçe is a brilliant student; always stood out with her assignmets.
-                </p>
-                <h5>Professor 1 name</h5>
-                <h6>Assistant Professor</h6>
-            </div>
 
-            <!--teacher 2-->
-            <div class="teacher-2">
-                <p>
-                    Tuğçe is a brilliant student; always stood out with her assignmets.
-                </p>
-                <h5>Professor 1 name</h5>
-                <h6>Assistant Professor</h6>
-            </div>
+            <div class="teacher-comment">
+                <!--teacher 1-->
+                <div class="teacher">
+                    <p>
+                        Tuğçe is a brilliant student; always stood out with her assignmets.
+                    </p>
+                    <h5>Professor 1 name</h5>
+                    <h6>Assistant Professor</h6>
+                </div>
 
-            <!--teacher 3-->
-            <div class="teacher-3">
-                <p>
-                    Tuğçe is a brilliant student; always stood out with her assignmets.
-                </p>
-                <h5>Professor 1 name</h5>
-                <h6>Assistant Professor</h6>
+                <!--teacher 2-->
+                <div class="teacher">
+                    <p>
+                        Tuğçe is a brilliant student; always stood out with her assignmets.
+                    </p>
+                    <h5>Professor 1 name</h5>
+                    <h6>Assistant Professor</h6>
+                </div>
+
+                <!--teacher 3-->
+                <div class="teacher">
+                    <p>
+                        Tuğçe is a brilliant student; always stood out with her assignmets.
+                    </p>
+                    <h5>Professor 1 name</h5>
+                    <h6>Assistant Professor</h6>
+                </div>
             </div>
         </section>
     </main>
