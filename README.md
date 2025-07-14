@@ -12,30 +12,29 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 Click any image to view that solution.
 
-## 🔗 Frontend Projects
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/02-basic-html-website">
-        <img src="./images/basic-html-website.png" alt="Basic HTML Website" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
+        <img src="./images/single-page-cv.png" alt="Basic HTML Website" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
       </a>
       <br/>
-      <strong>Basic HTML Website</strong>
+      <strong>Single Page CV</strong>
     </td>
     <td align="center">
       <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/03-personal-portfolio">
         <img src="./images/basic-html-website.png" alt="Personal Portfolio" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
       </a>
       <br/>
-      <strong>Personal Portfolio</strong>
+      <strong> Basic HTML Website</strong>
     </td>
     <td align="center">
       <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/01-single-page-cv">
-        <img src="./images/single-page-cv.png" alt="Single Page CV" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
+        <img src="./images/personal-portfolio.png" alt="Single Page CV" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
       </a>
       <br/>
-      <strong>Single Page CV</strong>
+      <strong>Personal Portfolio</strong>
     </td>
   </tr>
 </table>
