@@ -31,7 +31,7 @@ Click any image to view that solution.
     </td>
     <td align="center">
       <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/01-single-page-cv">
-        <img src="./images/personal-portfolio.png" alt="Single Page CV" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
+        <img src="./images/portfolio.png" alt="Single Page CV" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
       </a>
       <br/>
       <strong>Personal Portfolio</strong>
