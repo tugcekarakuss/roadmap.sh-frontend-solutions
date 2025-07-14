@@ -12,14 +12,30 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 Click any image to view that solution.
 
-<a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/01-single-page-cv">
-  <img src="./images/single-page-cv.png" alt="Single Page CV" style="height: 220px; object-fit: contain; display: block; margin-bottom: 10px;"/>
-</a>
+## 🔗 Frontend Projects
 
-<a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/02-basic-html-website">
-  <img src="./images/basic-html-website.png" alt="Basic HTML Website" style="height: 220px; object-fit: contain; display: block; margin-bottom: 10px;"/>
-</a>
-
-<a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/03-personal-portfolio">
-  <img src="./images/personal-portfolio.png" alt="Personal Portfolio" style="height: 220px; object-fit: contain; display: block; margin-bottom: 10px;"/>
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/02-basic-html-website">
+        <img src="./images/basic-html-website.png" alt="Basic HTML Website" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px; background: white; border: 1px solid #ccc;" />
+      </a>
+      <br/>
+      <strong>Basic HTML Website</strong>
+    </td>
+    <td align="center">
+      <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/03-personal-portfolio">
+        <img src="./images/basic-html-website.png" alt="Personal Portfolio" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px; background: white; border: 1px solid #ccc;" />
+      </a>
+      <br/>
+      <strong>Personal Portfolio</strong>
+    </td>
+    <td align="center">
+      <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/01-single-page-cv">
+        <img src="./images/single-page-cv.png" alt="Single Page CV" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px; background: white; border: 1px solid #ccc;" />
+      </a>
+      <br/>
+      <strong>Single Page CV</strong>
+    </td>
+  </tr>
+</table>
