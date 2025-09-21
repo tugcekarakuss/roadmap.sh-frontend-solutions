@@ -7,6 +7,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 - [Single Page CV](https://roadmap.sh/projects/single-page-cv)
 - [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 - [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+- [Changelog Component](https://roadmap.sh/projects/changelog-component)
 
 ## Demo Previews
 
@@ -34,6 +35,15 @@ Click any image to view that solution.
       </a>
       <br/>
       <strong>Personal Portfolio</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/tugcekarakuss/roadmap.sh-frontend-solutions/tree/main/04-changelog-component">
+        <img src="./images/changelog-component.png" alt="Changelog Component" height="220" style="object-fit: contain; border-radius: 10px; padding: 4px;" />
+      </a>
+      <br/>
+      <strong>Changelog Component</strong>
     </td>
   </tr>
 </table>
